@@ -1,0 +1,23 @@
+# 1. API Keys & Məxfi Dəyişənlər (.env)
+.env
+.env.*
+!.env.example
+# 2. Virtual Mühit (venv)
+venv/
+.venv/
+env/
+ENV/
+# 3. Python Keş Faylları (Cache)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+# 4. FAISS Vektor Bazası Faylları
+faiss_index/
+*.index
+*.pkl
+# 5. Redaktor və Əməliyyat Sistemi Faylları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
