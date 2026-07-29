@@ -1,0 +1,23 @@
+# Python cache & virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+
+# ChromaDB və Lokal Vektor Verilənlər Bazası Cache-ləri
+.chroma/
+chroma_db/
+*.db
+*.sqlite3
+
+# IDE / Redaktor qovluqları
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
